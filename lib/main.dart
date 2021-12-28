@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_fcm_ads/AdmobHelper.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  AdmobHelper.initialize();
   runApp(const MyApp());
 }
 
@@ -38,6 +42,13 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: const Center(
           child: Text("Welcome to flutter app with FCM and Google Ads")),
+      bottomNavigationBar: Container(
+        child: AdWidget(
+          ad: AdmobHelper.getBannerAd()..load(),
+          key: UniqueKey(),
+        ),
+        height: 50,
+      ),
     );
   }
 }
