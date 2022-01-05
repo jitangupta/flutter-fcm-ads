@@ -1,4 +1,4 @@
-package com.jitangupta.flutter_fcm_ads
+package com.jugaadhai.app
 
 import io.flutter.embedding.android.FlutterActivity
 

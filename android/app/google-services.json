@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "773555772554",
-    "project_id": "flutter-fcm-ads",
-    "storage_bucket": "flutter-fcm-ads.appspot.com"
+    "project_number": "752358041296",
+    "firebase_url": "https://jugaadhai-7d4f9.firebaseio.com",
+    "project_id": "jugaadhai-7d4f9",
+    "storage_bucket": "jugaadhai-7d4f9.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:773555772554:android:b6a724f81dc3c2680f2173",
+        "mobilesdk_app_id": "1:752358041296:android:dfdede1850ce99fe",
         "android_client_info": {
-          "package_name": "com.jitangupta.flutter_fcm_ads"
+          "package_name": "com.jugaadhai.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "773555772554-u5bercmchs4bi4u95cr76es5s2s4hdcl.apps.googleusercontent.com",
+          "client_id": "752358041296-44nluk06k3kk9iugbnoa8s655a23gd9f.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCmdT2FGC7N-bJYzh1c3ueZVZRZ8J12p0A"
+          "current_key": "AIzaSyBMOrbxgKcQFxLZij7Xki4A1UCfoLAusss"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "773555772554-u5bercmchs4bi4u95cr76es5s2s4hdcl.apps.googleusercontent.com",
+              "client_id": "752358041296-44nluk06k3kk9iugbnoa8s655a23gd9f.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

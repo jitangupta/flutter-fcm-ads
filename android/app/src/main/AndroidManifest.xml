@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jitangupta.flutter_fcm_ads">
+    package="com.jugaadhai.app">
    <application
         android:label="flutter_fcm_ads"
         android:name="${applicationName}"
